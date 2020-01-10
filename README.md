@@ -30,23 +30,11 @@ We just learned the basics about creating a **Hello World** app in React, so we 
 
 ### Iteration 1 - Create the App
 
-Let's start with the basics: as you can see `public` folder is already there and it has some images in it. Let's add the folders you will need for the project: `dist` and `src`. Also, remember to create an `index.html` file, where you will have the entry point of the application. (Refer to the lesson to see where `index.html` suppose to be.)
+Do not configure this project manually. Use <a href="https://github.com/facebook/create-react-app">create-react-app instead</a>. 
 
+## Iteration 2 - First Landing Page
 
-#### Babel and Webpack
-
-Our project needs to have two important packages that are necessary for compiling: `Babel` and `Webpack`.
-
-But don't worry, we took care of it. As well as of `webpack.config.js` file. :heavy_check_mark:
-
-
-### Iteration 2 - React Creation
-
-You are ready to start creating your React app. First, add the packages you need (**react@16.3.2 react-dom@16.3.2**). And then create an `index.js` file (refer to the lesson to see where this file suppose to be).
-
-## Iteration 3 - First Landing Page
-
-Finally, let's create our landing page. In the `public` folder, you will find all the assets you need to recreate the following landing page:
+Let's create our landing page. In the `assets` folder, you will find all the assets you need to recreate the following landing page:
 
 ![home](https://user-images.githubusercontent.com/23629340/43718926-863a3c7a-998c-11e8-803b-7c9bc87425bb.png)
 
