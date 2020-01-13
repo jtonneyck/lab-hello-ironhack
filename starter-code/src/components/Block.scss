@@ -1,0 +1,21 @@
+.blocks {
+    display: flex;
+    padding: 8% 4%;
+    align-items: flex-start;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    h2 {
+        color: #1F2435;
+        margin: 12% 0 4% 0;
+    }
+    p {
+        color: #5b5b5b;
+        width: 65%;
+        font-weight: 300;
+        font-size: 1.4em;
+    }
+}
