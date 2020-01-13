@@ -1,0 +1,15 @@
+.top {
+  padding: 2% 7% 0% 7%;
+  background: black;
+  height: 600px;
+}
+
+.bottom {
+  background-color: white;
+  padding: 0 7%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
