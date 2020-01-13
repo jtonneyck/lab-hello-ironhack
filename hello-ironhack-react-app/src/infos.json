@@ -1,0 +1,6 @@
+[
+    {"image":"./assets/images/icon1.png","title":"Declarative","text":"Text 1"},
+    {"image":"./assets/images/icon1.png","title":"Component","text":"Text 2"},
+    {"image":"./assets/images/icon1.png","title":"Single-way","text":"Text 3"},
+    {"image":"./assets/images/icon1.png","title":"JSX","text":"Text 4"}
+]

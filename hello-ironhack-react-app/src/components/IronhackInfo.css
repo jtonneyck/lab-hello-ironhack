@@ -1,0 +1,19 @@
+.ironhack-info{
+    /* background-color:#555; */
+    /* position:absolute;
+    left:0px;
+    top:200px;
+    height:500px;
+    width:300px;
+    margin:auto; */
+    color:white;
+    /* display:flex;
+    flex-direction: column;
+    justify-content: flex-start; */
+}
+.ironhack-info h1{
+    font-size:3em;
+}
+.ironhack-info h2{
+    font-size:1em;
+}

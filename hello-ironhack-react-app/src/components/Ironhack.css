@@ -1,0 +1,13 @@
+.ironhack{
+    /* padding-left:40px;
+    padding-right:10px; */
+    width:90%;
+    margin:auto;
+    height:500px;
+    position:relative;
+    background-color:rgb(31, 37, 53);
+}
+.content {
+    width:80%;
+    margin:auto;
+}

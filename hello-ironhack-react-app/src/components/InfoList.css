@@ -1,0 +1,7 @@
+.info-list {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    width:100%; /* over the entire width */
+    flex-wrap:nowrap;
+}
