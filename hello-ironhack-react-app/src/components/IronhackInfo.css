@@ -7,6 +7,8 @@
     width:300px;
     margin:auto; */
     color:white;
+    width:50%;
+    text-align:left;
     /* display:flex;
     flex-direction: column;
     justify-content: flex-start; */
@@ -16,4 +18,13 @@
 }
 .ironhack-info h2{
     font-size:1em;
+}
+
+.ironhack-button{
+    /* background-color:blue; */
+    font-size:1.1rem;
+    padding:0.8rem 1rem;
+    border-radius: 2%;
+    margin-top:1.5rem;
+    margin-bottom:1rem;
 }

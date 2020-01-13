@@ -6,6 +6,7 @@
     height:500px;
     position:relative;
     background-color:rgb(31, 37, 53);
+    padding-top:16px;
 }
 .content {
     width:80%;
