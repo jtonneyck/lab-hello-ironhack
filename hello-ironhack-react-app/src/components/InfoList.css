@@ -1,0 +1,14 @@
+.info-list {
+    display:flex;
+    flex-direction:row;
+    text-align:left;
+    /* align-items:stretch; */
+    justify-content: space-between;
+    color:rgb(23,27,40);
+    padding-top:100px;
+    padding-left:10%;
+    padding-right:10%;
+    width:90%; /* over the entire width */
+    margin:auto;
+    flex-wrap:nowrap;
+}
