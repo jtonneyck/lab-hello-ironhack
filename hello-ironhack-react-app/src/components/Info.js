@@ -6,9 +6,9 @@ function Info(props){
 
     return (
         <div className="Info">
-            <div><img src={props.image} alt='icon' width='70px'></img></div>
-            <div>{props.title}</div>
-            <div>{props.text}</div>
+            <div><img src={props.image} alt='icon' width='85px'></img></div>
+            <h3>{props.title}</h3>
+            <h4>{props.text}</h4>
         </div>
     );
 
