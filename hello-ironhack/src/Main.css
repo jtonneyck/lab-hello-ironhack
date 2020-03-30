@@ -6,7 +6,6 @@
 }
 
 .main-text {
-  margin: 0;
   text-align: left;
   width: 35%;
 }
@@ -18,12 +17,13 @@
   font-size: 1.25rem;
   font-weight: bold;
   height: 30px;
-  margin-top: 4rem;
   padding: 15px;
   text-decoration: none;
 }
 
 .main-img {
-  position: relative;
-  left: 75%;
+  position: absolute;
+  left: 55%;
+  top: 4%;
+  width: 20%;
 }
