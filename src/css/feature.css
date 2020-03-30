@@ -1,0 +1,25 @@
+.app-features {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 10vh 5vh;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 20%;
+  text-align: left;
+}
+
+.features h4 {
+  font-size: larger;
+  margin: 10px 0 0 20px;
+}
+
+.features p {
+  margin-left: 20px;
+}
