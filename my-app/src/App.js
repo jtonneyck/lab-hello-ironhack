@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './App.css';
 import TopPart from './top-part';
 import Bottom from './bottom';

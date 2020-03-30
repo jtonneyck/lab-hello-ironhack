@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import Navbar from './navbar';
 
-// import Navbar form './navbar';
-
 class TopPart extends Component {
     render() {
         return (
@@ -13,8 +11,6 @@ class TopPart extends Component {
                     <p>You will learn a Frontend framework from scratch, to become a Ninja Developer.</p>
                     <a>Awesome!</a>
                 </div>
-                
-                
             </div>
         )
     }
