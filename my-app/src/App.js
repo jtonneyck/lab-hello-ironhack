@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import TopPart from './top-part';
-import Bottom from './bottom';
+import TopPart from './components/top-part';
+import Bottom from './components/bottom';
 
 function App() {
   return (
