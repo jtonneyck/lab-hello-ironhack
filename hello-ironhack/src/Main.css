@@ -12,10 +12,18 @@
 }
 
 .main-link {
+  color: #282c34;
   background-color: #ffffff;
   border-radius: 5px;
+  font-size: 1.25rem;
+  font-weight: bold;
   height: 30px;
-  margin-top: 2rem;
+  margin-top: 4rem;
   padding: 15px;
   text-decoration: none;
+}
+
+.main-img {
+  position: relative;
+  left: 75%;
 }
