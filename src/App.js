@@ -3,37 +3,40 @@ import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/navbar";
 import MainText from "./components/main";
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
+import Button from "./components/button";
+import Feature from "./components/features";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
         <div className="app-header">
-          <Navbar/>
-          <MainText/>
+          <Navbar />
+          <MainText />
+          <Button />
         </div>
-        <div className="features"></div>
+        <div className="bottom">
+          <Feature
+            image="/images/icon1.png"
+            title="Declarative"
+            description="React makes it painless to create interactive UIs."
+          />
+          <Feature
+            image="/images/icon2.png"
+            title="Components"
+            description="Build encapsulated components that manage their state."
+          />
+          <Feature
+            image="/images/icon3.png"
+            title="Single-Way"
+            description="A set of immutable values are passed to the components."
+          />
+          <Feature
+            image="/images/icon4.png"
+            title="JSX"
+            description="Statically-typed, designed to run on modern browsers."
+          />
+        </div>
       </div>
     );
   }

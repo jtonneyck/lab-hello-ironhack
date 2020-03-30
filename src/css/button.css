@@ -1,0 +1,20 @@
+.button {
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 7px;
+  padding: 18px 30px;
+  margin-top: 4vh;
+  width: fit-content;
+}
+
+.button a:visited {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button a:link {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
