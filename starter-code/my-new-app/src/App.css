@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  margin:2rem;
+  background-color: #282c34;
+  height: 120vh;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#flex-1{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+#letter-position{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 3rem;
+  height: 100vh;
+  justify-content: flex-end;
+}
+
+#letter-position>div:nth-of-type(1) {
+display: flex;
+font-size: 2rem;
+width: 30vw;
+text-align: start;
+}
+
+#letter-position>div:nth-of-type(2) {
+width: 20vw;}
+
+#letter-position input[type=button]{
+  width:8rem;
+  height:4rem;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-size: large;
+  font-weight: bold;
+  margin-left:5rem;
+}
+
+#icons{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100vw;
+}
+
+#icons p {
+   display: flex;
+  
+}
+
+.paragraphs{
+  width: 12rem;
+}
