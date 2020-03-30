@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-
-import Heading from './main';
+import Heading from './Main';
 import './Main.css';
+import Card from './Card';
 
 // import icon1 from '/public/icon1.png';
 
@@ -21,9 +21,35 @@ function App() {
           Awesome!
         </a>
       </header>
-      <div className="image-container">
-        <div className="image">
+
+      <div className="card">
+        <div className="card">
           <img src="/icon1.png" alt="" className="image-img" />
+          <Card
+            title="Declarative"
+            text="React makes it painless to create interactive UIs"
+          />
+        </div>
+        <div className="card">
+          <img src="/icon2.png" alt="" className="image-img" />
+          <Card
+            title="Components"
+            text="React makes it painless to create interactive UIs"
+          />
+        </div>
+        <div className="card">
+          <img src="/icon3.png" alt="" className="image-img" />
+          <Card
+            title="Single-Way"
+            text="React makes it painless to create interactive UIs"
+          />
+        </div>
+        <div className="card">
+          <img src="/icon4.png" alt="" className="image-img" />
+          <Card
+            title="JSX"
+            text="React makes it painless to create interactive UIs"
+          />
         </div>
       </div>
     </div>
