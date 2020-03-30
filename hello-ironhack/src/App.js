@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './ironhack-logo.svg';
 import './App.css';
 import Logo from './Logo.jsx';
 import SayHello from './SayHello.jsx';
