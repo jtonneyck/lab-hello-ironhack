@@ -4,7 +4,7 @@ import "./App.css";
 import Navbar from "./components/navbar";
 import MainText from "./components/main";
 import Button from "./components/button";
-import Feature from "./components/features";
+import Feature from "./components/feature";
 
 class App extends React.Component {
   render() {
@@ -15,7 +15,7 @@ class App extends React.Component {
           <MainText />
           <Button />
         </div>
-        <div className="bottom">
+        <div className="app-features">
           <Feature
             image="/images/icon1.png"
             title="Declarative"
