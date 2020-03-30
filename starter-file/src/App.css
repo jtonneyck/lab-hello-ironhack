@@ -6,10 +6,28 @@
     
     .navBar {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         background: #282c34;
         color: white;
         padding: 0 5%;
+    }
+    
+    .left-logo {
+        display: flex;
+        justify-content: flex-start;
+        width: 50%;
+    }
+    
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+    }
+    
+    .menu-logo {
+        padding-top: 1%;
+        height: 3vh;
+        pointer-events: none;
     }
     
     .App-logo {

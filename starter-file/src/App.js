@@ -7,9 +7,13 @@ function App() {
     <div className="App">
     {/* Navbar */}
     <nav className="navBar"bg="dark">
-    <img src={logo} className="App-logo" alt="logo" />
+    <div className="left-logo">
+    <img src="/images/ironhack-logo.svg" className="IH-logo" alt="logo" />
+    </div>
+    
+   
     <div className="menu">
-      <p>dropdown</p>
+    <img src="/images/menu-top.svg" className="menu-logo" alt="menu-logo" />
     </div>
   </nav>
 
