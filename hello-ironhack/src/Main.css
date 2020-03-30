@@ -1,0 +1,29 @@
+.main-heading {
+  font-size: 4.5rem;
+  text-align: left;
+  margin: 0;
+  width: 55%;
+}
+
+.main-text {
+  text-align: left;
+  width: 35%;
+}
+
+.main-link {
+  color: #282c34;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  height: 30px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.main-img {
+  position: absolute;
+  left: 55%;
+  top: 4%;
+  width: 20%;
+}
