@@ -10,6 +10,7 @@
         background: #282c34;
         color: white;
         padding: 0 5%;
+        padding-top: 1%;
     }
     
     .left-logo {
@@ -85,16 +86,16 @@
         font-weight: bold;
         font-size: 30px;
         margin: 0;
+        padding-left: 10%;
     }
     
     .App-bottom p {
         color: gray;
+        padding-left: 10%;
     }
-    
-    .App-bottom img {
-        width: 50%;
-        height: 80%;
-    }
+    /* .App-bottom img {
+        
+    } */
     
     .row {
         display: flex;
@@ -103,10 +104,10 @@
     }
     
     .col {
-        height: 30vh;
         width: 20vw;
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         text-align: left;
         color: #282c34;
     }
