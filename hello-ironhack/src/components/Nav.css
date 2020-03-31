@@ -1,0 +1,17 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(31, 37, 53);
+}
+
+.menu {
+    display: flex;
+    margin: 10px 70px 0;
+}
+
+.menu img {
+    width: 50px;
+}
+
