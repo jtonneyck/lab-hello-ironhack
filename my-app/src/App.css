@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  background-color: #1f2535;
+  height: 100vh;
+  padding: 0 5vw;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-text {
+  color: white;
+  text-align: left;
+  font-size: 2rem;
+  margin-top: 10vh;
+}
+
+.title-text > h5 {
+  font-weight: lighter;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.title-text > h1 {
+  margin: 0;
+}
+
+.button {
+  background-color: white;
+  border-radius: 3px;
+  height: 50px;
+  width: 110px;
+  color: #1f2535;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+
+.icon-container {
+  margin-top : 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons {
+  width: 20vw;
+  font-weight: 600;
+  color: #1f2535;
+  text-align: left;
+}
+
+.icons > h4 {
+  font-size: 2rem;
+}
