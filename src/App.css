@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+
+.homepage {
+  display: flex;
+  align-self: start;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  min-height: 50vh;
+  background-color: #282c34;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+}
+.card-item {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 300px;
+}
+.card-icon {
+  width: 100px;
+  height: 100px;
+}
