@@ -1,0 +1,14 @@
+.getstatedbtn{
+    background:white; 
+    height:4rem; 
+    width:8rem; 
+    border-radius:5px;
+    font-size: 2rem;
+    color: black;
+    line-height: 3.4rem;
+}
+.mainText{
+    width: 35%;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
