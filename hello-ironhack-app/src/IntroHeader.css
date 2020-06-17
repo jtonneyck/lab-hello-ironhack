@@ -1,0 +1,35 @@
+.header{
+    background-color: slategray;
+    height: 630px;
+}
+
+.introduction{
+    width: 21%;
+    position: relative;
+    top: 8%;
+    left: 5%;
+    color:white;
+}
+
+.introduction button{
+    padding:5% 11%;
+    background-color: white;
+    border: none;
+    border-radius: 5%;
+    font-size: 1.5em;
+    margin-top: 9%;
+    font-weight: 600;
+}
+
+.introduction p{
+    font-size: 1.3em;
+    width: 80%;
+    margin: 4% 0;
+    font-weight: 100;
+}
+
+.introduction h1{
+    font-size: 4.0rem;
+    line-height: 1em;
+    margin-bottom: 0;
+}
