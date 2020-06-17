@@ -41,6 +41,6 @@
 .feature-cards {
   display: flex;
   justify-content: space-between;
-  margin: 75px;
-  /* background-color: #e4e4e4; */
+  background-color: #e4e4e4;
+  padding: 100px 75px;
 }
