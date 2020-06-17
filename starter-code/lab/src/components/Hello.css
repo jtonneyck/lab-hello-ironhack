@@ -10,7 +10,7 @@
     font-size: 90px;
     text-align: left;
     margin: 0 0 0 50px;
-    padding: 200px 0 0;
+    padding: 150px 0 0;
 }
 
 .hello p{
@@ -29,4 +29,15 @@
     padding: 15px 30px;
     border-radius: 5px;
     margin: 0 0 0 50px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    padding: 50px 0 0;
+}
+
+.watermark{
+    float: right;
 }
