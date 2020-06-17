@@ -1,0 +1,54 @@
+.wrapper{
+  width: 100%;
+  height: 100vh;
+}
+.dark-background{
+  background-color:#282c34 ;
+  height: 120vh;
+}
+.App-header {
+  background-color: #282c34;
+  display: flex;
+}
+.App-header nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding:2rem 3rem 0 3rem ;
+}
+.information{
+  padding: 3rem;
+  padding-bottom:2rem;
+  width: 50%;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.information h1{
+  font-size: 5rem;
+}
+.button{
+  color: #282c34 ;
+  background-color: white;
+  padding:2% 4%;
+  font-size: calc(10px + 2vmin);
+  border-radius: 15px;
+  border-style: none;
+  margin-left: 3%;
+}
+.light-background{
+  display: flex;
+  justify-content: space-evenly;
+  height: 80vh;
+}
+.light-background div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+  width: 20%;
+}
+.light-background div img{
+ width: 50%;
+}
