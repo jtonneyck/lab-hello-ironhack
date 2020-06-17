@@ -1,0 +1,6 @@
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4%;
+    align-content: space-evenly;
+}
