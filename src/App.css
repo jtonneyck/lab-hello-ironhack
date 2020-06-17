@@ -1,0 +1,51 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.App .top-section{
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    background-color: #282c34;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+.App h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 800;
+    width: 50%;
+    margin: 0px;
+}
+
+.App h3{
+    color: white;
+    width: 30%;
+    margin: 0px;
+    font-weight: 100;
+}
+
+.App button{
+    background-color: white;
+    font-size: 1.5rem;
+    color: #282c34;
+    font-weight: bold;
+    width: 20%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.App .bottom-section{
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
