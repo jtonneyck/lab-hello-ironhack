@@ -1,9 +1,8 @@
 import React from 'react';
-import "./Heading.css";
 
 function Heading(props) {
     return (
-        <h1 class="heading">{props.title}</h1>
+        <h1>{props.title}</h1>
     );
 }
 
