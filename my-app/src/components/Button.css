@@ -1,0 +1,12 @@
+.button {
+    margin: 50px;
+}
+.button a {
+    background-color: white;
+    color: #252739;
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 25px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+}
