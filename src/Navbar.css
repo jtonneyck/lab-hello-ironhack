@@ -1,0 +1,35 @@
+.navbar{
+    background-color:black;
+    display:flex;
+    justify-content: space-around;
+}
+
+.text{
+    color:white;
+    background-color: black;
+    height:600px;
+    display:flex;
+    text-align: left;
+    align-items: flex-end;
+    font-size: 4rem;
+    margin:0px;
+    padding:0px;
+}
+
+.small{
+    margin: 0px;
+    padding:0px;
+    color:white;
+    background-color:black;
+    font-size: 6em;
+    height:500px;
+    display:flex;
+    align-items: flex-end;
+    text-align: left;
+}
+
+.button{
+    background-color:grey;
+    color:black;
+    font-size: 2em;
+}
