@@ -1,0 +1,9 @@
+.navBar li {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+}
