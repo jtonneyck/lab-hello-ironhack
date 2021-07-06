@@ -1,0 +1,22 @@
+.App {
+  text-align: left;
+}
+
+.App-header {
+  min-height: 90vh;
+  background: #1b2035;
+  padding-left: 50px;
+}
+
+.four-icons-frame{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 70px;
+}
+
+
+
+
+

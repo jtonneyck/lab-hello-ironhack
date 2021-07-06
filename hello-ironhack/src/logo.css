@@ -1,0 +1,9 @@
+.logo-frame{
+      display: flex;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  margin-top: 40px;
+}
