@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+
+.overview {
+    display: flex;
+    background-color: rgb(31, 37, 53);
+    height: 75vh;
+}
+
+.main {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 5%;
+}
+
+.welcome {
+    font-size: 3.5em;
+    width: 50%;
+    margin-left: 70px;  
+}
+
+.welcome-subtitle {
+    font-size: 2.1em;
+    font-weight: 200;
+    width: 30%;
+    margin: 0 0 120px 70px;
+}
+
+.welcome-subtitle p{
+    margin: 0;
+}
+
+.main h1 {
+    margin: 0;
+}
+
+.button {
+    color: rgb(31, 37, 53)  !important;
+    background-color: white;
+    text-decoration: none;
+    font-size: 1.8em;
+    margin-left: 70px;
+    padding: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.react {
+    width: 30vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 5%;
+}
+
+.react img {
+    width: 80%;
+}
