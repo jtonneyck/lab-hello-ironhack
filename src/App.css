@@ -1,0 +1,9 @@
+.App-header {
+  background-color: #1F2535;
+}
+
+.App-cards {
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+}

@@ -1,0 +1,8 @@
+.Nav {
+  display: flex;
+  justify-content: space-between
+}
+
+.Nav img {
+  margin:2% 5% 5% 5%;
+}
